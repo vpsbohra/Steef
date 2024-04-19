@@ -1,0 +1,50 @@
+custom_address_module.dropdown_options:
+  path: '/dropdown-options'
+  defaults:
+    _controller: '\Drupal\custom_address_module\Controller\AddressController::getDropdownOptions'
+    _title: 'Get Dropdown Options'
+  requirements:
+    _permission: 'access content'
+
+custom_address_module.unique_values_by_city_and_postal_code:
+  path: '/unique-values/{city}/{postal_code}'
+  defaults:
+    _controller: '\Drupal\custom_address_module\Controller\AddressController::getUniqueValuesByCityAndPostalCode'
+    _title: 'Get Unique Values By City and Postal Code'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      city:
+        type: string
+      postal_code:
+        type: string
+
+custom_address_module.dropdown_options_by_city_name:
+  path: '/dropdown-options-by-city-name/{city}'
+  defaults:
+    _controller: '\Drupal\custom_address_module\Controller\AddressController::getDropdownOptionsByCityName'
+    _title: 'Get Dropdown Options By City Name'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      city:
+        type: string
+
+custom_address_module.dropdown_options_by_postal_code:
+  path: '/dropdown-options-by-postal-code/{postalCode}'
+  defaults:
+    _controller: '\Drupal\custom_address_module\Controller\AddressController::getDropdownOptionsByPostalCode'
+    _title: 'Get Dropdown Options By Postal Code'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      postalCode:
+        type: string
+
+
+
+
+

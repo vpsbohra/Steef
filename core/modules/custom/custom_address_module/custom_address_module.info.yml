@@ -1,0 +1,6 @@
+name: 'Custom Address Module'
+type: module
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+version: 1.0
+js:js/custom_address_module.js: {}

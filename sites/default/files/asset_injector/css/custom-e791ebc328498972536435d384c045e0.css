@@ -1,0 +1,118 @@
+.main-banner .bnr-img img {
+    width: 100%;
+}
+.main-banner {
+    position: relative;
+}
+.main-banner .bnr-text {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 40%;
+    transform: translateY(-50%);
+    padding-right: 4%;
+}
+.main-banner .bnr-text h2 {
+    font-size: 24px;
+    margin: 0px;
+    font-weight: bold;
+	    line-height: 30px;
+		    color: #fff;
+}
+.main-banner .bnr-text p {
+    margin: 10px 0px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #fff;
+}
+.main-banner .bnr-text a {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 21px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 11px;
+}
+.block.block-system.block-system-main-block {
+    grid-column: 1 / 18 !important;
+}
+.social-bar {
+    display: none;
+}
+.main-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: auto !important;
+}
+.main-content .main-content__container.container {
+    max-width: 100% !important;
+    padding: 0px !important;;
+}
+.site-header__initial {
+    display: none;
+}
+header#header .site-header__fixable.is-fixed {
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+}
+header#header .site-header__fixable.is-fixed div#site-header__inner {
+    opacity: 9 !important;
+    transform: inherit;
+}
+header#header .site-header__fixable.is-fixed div#site-header__inner .container.site-header__inner__container {
+    justify-content: center;
+}
+.frm-sec {
+    background-color: #000;
+}
+.frm-sec  .container {
+    max-width: 1200px !important;
+    margin: auto;
+}
+.frm-sec .container form p {
+    display: flex;
+    justify-content: space-between;
+}
+.frm-sec .container form p select {
+    margin: 60px 0px;
+    background-color: #357cf0;
+    color: #fff;
+    border: 0;
+    width: 19%;
+    font-size: 18px;
+    height: 50px;
+}
+.node__content {
+    padding-bottom: 0px !important;
+}
+div#content {
+    margin-bottom: 0px !important;
+}
+div#block-olivero-content {
+    margin-bottom: 0px !IMPORTANT;
+}
+
+.frm-sec .container form p button {
+    margin: 60px 0px;
+    background-color: #1f9bce;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    padding: 0px 20px;
+}
+form#addressForm {
+    display: flex;
+    align-items: center;
+}
+.frm-sec .container form p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 10px;
+}
+.frm-sec .container form p:last-child {
+    width: 20%;
+    justify-content: center;
+}
